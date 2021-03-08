@@ -5,3 +5,4 @@ metadata:
   labels:
   tier: db
   env: dev
+  app: exp-prostgres
