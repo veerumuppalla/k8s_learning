@@ -11,3 +11,4 @@ ReplicaSet:
   spec:
     - image: postgress-dep
       container: postgress:latest
+      port: 5432
