@@ -7,3 +7,7 @@ metadata:
   env: dev
   app: exp-prostgres
 ReplicaSet:
+  replicas: 3
+  spec:
+    - image: postgress-dep
+      container: postgress:latest
